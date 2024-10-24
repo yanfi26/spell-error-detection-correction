@@ -25,7 +25,7 @@ model_det_fn = './models/word_error_detection_all_subjects.h5'
 header_left, header_right = st.columns([1,5], vertical_alignment="center")
 
 with header_left:
-    st.image("assets/peka.jpeg", width=120)
+    st.image("assets/peka.png", width=120)
 
 with header_right:
     st.subheader('Pendeteksi dan Koreksi Ejaan')
